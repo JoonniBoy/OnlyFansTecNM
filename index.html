@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/ic_onlyfans.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="izquierda">
+            <img src="img/Onlyfans-Logo.png" alt="Logo">
+            <img src="img/ic_Linces.jpg" alt="ic_Linces">
+        </div>
+        <div class="derecha">
+            <h1>Registro de Usuario TecNm</h1>
+            <form id="registroForm" action="subidaimagen.html">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required />
+                </div>
+               <div class="form-group">
+                    <label>Sexo:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="sexo_masculino" name="sexo" value="Masculino">
+                        <label for="sexo_masculino">Masculino</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="sexo_femenino" name="sexo" value="Femenino">
+                        <label for="sexo_femenino">Femenino</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="sexo_otro" name="sexo" value="Otro">
+                        <label for="sexo_otro">Otro</label>
+                    </div>
+              </div>
+                <div class="form-group">
+                    <div class="terminos">
+                        <input type="checkbox" id="terminos" name="terminos" required>
+                        <label for="terminos">Acepto terminos y condiciones</label>
+                        <input type="checkbox" id="noticias" name="noticias">
+                        <label for="noticias">Acepto recibir noticias</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Registrar">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
